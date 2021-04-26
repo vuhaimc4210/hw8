@@ -1,0 +1,135 @@
+
+.container-fluid{
+    background-color: red;
+    /* padding: 5px; */
+}
+.navbar{
+    padding: 0;
+}
+.navbar-img{
+    width: 171px;
+    height: 44px;
+    /* border: 1px black solid; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 30px;
+}
+.fab.fa-apple{
+    color: white;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+.fas.icon{
+    color: white;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    
+}
+.nav-link{
+    padding: 0px 0px 0px 0px;
+}
+.text{
+    color: white ;
+}
+
+.nav-li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.navbar-nav{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    display: inline-block;
+    /* height: 54px; */
+    font-size: 12px;
+    padding: 10px 0px;
+    margin-left: -5px;
+}
+.nav-item:hover .nav-ul{
+    display: block;
+}
+.nav-ul{
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    border-top: 0;
+    font-size: 13px;
+    width: 250px;
+}
+.nav-li{
+    display: block;
+    padding: 5px;
+}
+.form-control{
+    border-right: 0px;
+    border-radius: 0;
+    width: 175px;
+}
+.btn{
+    background-color: white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -8px;
+    border: #ced4da 1px solid;
+    border-left: 0px;
+    margin-right: 10px;
+}
+.btn:hover{
+    background-color: white;
+    border: #ced4da 1px solid;
+    border-left: 0px;
+}
+.fas.fa-search{
+    color: black;
+    /* background-color: white; */
+}
+.place{
+    width: 80px;
+    font-size: 13px;
+    background: #eaeaea;
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem 0 0 .25rem;
+    padding: 0;
+    margin-left: 30px;
+}
+
+.nav-item:hover {
+    color: black;
+    background-color: rgb(238, 234, 234);
+}
+.nav-item:hover i, .nav-item:hover .text{
+    color: black;
+}
+.place a{
+    color: black;
+    
+}
+.nav-item.pl{
+    padding: 0;
+    margin: 0;
+    /* background-color: blue; */
+    width: 80px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.nav-ul.pl{
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    width: auto;
+    text-align: justify;
+    position: absolute;
+    top: 50px;
+    margin-left: 25px;
+    /* left: 10px; */
+}
